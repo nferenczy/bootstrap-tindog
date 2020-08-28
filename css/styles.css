@@ -22,13 +22,13 @@ h2 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7% 15%;
 }
 
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem !important;
+  padding: 0 4.5rem 4.5rem 0 !important;
 }
 
 .nav-item {
@@ -56,14 +56,18 @@ h2 {
 /* title image */
 
 .title-image {
-  width: 40%;
+  width: 50%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features  */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 h3 {
@@ -116,4 +120,15 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
